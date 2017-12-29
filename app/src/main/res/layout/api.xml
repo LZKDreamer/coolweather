@@ -67,6 +67,36 @@
                     android:layout_gravity="center"
                     android:text="PM2.5指数"
                     android:textColor="#fff"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+               >
+                <TextView
+                    android:id="@+id/qlty_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="问问谔谔"
+                    android:textColor="#fff"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:text="空气质量"
+                    android:textColor="#fff"/>
             </LinearLayout>
         </RelativeLayout>
 

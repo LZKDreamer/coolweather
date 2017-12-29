@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     >
+
+    <Button
+        android:id="@+id/nav_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ic_home"/>
     <TextView
         android:id="@+id/title_city"
         android:layout_width="wrap_content"
@@ -21,5 +30,5 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:textColor="#fff"
-        android:textSize="16sp"/>
+        android:textSize="12sp"/>
 </RelativeLayout>
